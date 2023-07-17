@@ -1,0 +1,57 @@
+
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Your order</title>
+        <link rel="stylesheet" href="main.css">
+    </head>
+    <body>
+        <h1>Your ORDER</h1>
+        <fieldset>
+            <legend>order info</legend>
+    <form action="https://httpbin.org/grt" method="get">
+        <label for="firstname">FirstName</label>
+        <input type="text" name="firstname" id="firstname" placeholder="yourname" required>
+        <br>
+        <label for="number">contact</label>
+        <input type="tel" placeholder="xxxxxxxxxxx" name="order">
+        <br>
+        <h2>food</h2>
+        <label for="food">rajma</label>
+        <input type="checkbox">
+        <br>
+        <label for="food">dal</label>
+        <input type="checkbox">
+        <br>
+        <label for="food">paneer</label>
+        <input type="checkbox">
+        <br>
+        <label for="food">roti</label>
+        <input type="checkbox">
+        <br>
+        <label for="food">naan</label>
+        <input type="checkbox">
+        <hr>
+        <h2>quantity</h2>
+        <label for="rajma">rajma</label>
+        <input type="number" name="rajma" id="rajma">
+        <br>
+        <label for="dal">dal</label>
+        <input type="number" name="dal" id="dal">
+        <br>
+        <label for="paneer">paneer</label>
+        <input type="number" name="paneer" id="paneer">
+        <br>
+        <label for="roti">roti</label>
+        <input type="number" name="roti" id="roti">
+        <br>
+        <label for="naan">naan</label>
+        <input type="number" name="naan" id="naan">
+        <br>
+        <hr>
+        <button type="submit" >submit</button>
+        
+    </form>
+    </fieldset>
+    </body>
+</html>
